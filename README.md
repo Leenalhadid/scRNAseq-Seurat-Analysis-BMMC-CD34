@@ -13,8 +13,7 @@ The project addresses the following analytical tasks:
 - Dimensionality reduction and clustering.
 - Automatic and manual cell type annotation.
 - Differential expression analysis and pathway enrichment.
-- Trajectory inference using Monocle3.
-- Cell-cell communication analysis using CellChat.
+
 
 ---
 
