@@ -14,10 +14,10 @@ library(ggpubr)
 
 
 #read and save all samples-------------------------------------------------------------------------------------------------
-BMMC_D1T1 <- readRDS('/home/leaj00001/Downloads/scbi_ds1/GSM4138872_scRNA_BMMC_D1T1.rds')
-BMMC_D1T2 <- readRDS('/home/leaj00001/Downloads/scbi_ds1/GSM4138873_scRNA_BMMC_D1T2.rds')
-CD34_D2T1 <- readRDS('/home/leaj00001/Downloads/scbi_ds1/GSM4138874_scRNA_CD34_D2T1.rds')
-CD34_D3T1 <- readRDS('/home/leaj00001/Downloads/scbi_ds1/GSM4138875_scRNA_CD34_D3T1.rds')
+BMMC_D1T1 <- readRDS('path..../GSM4138872_scRNA_BMMC_D1T1.rds')
+BMMC_D1T2 <- readRDS('path..../GSM4138873_scRNA_BMMC_D1T2.rds')
+CD34_D2T1 <- readRDS('path..../GSM4138874_scRNA_CD34_D2T1.rds')
+CD34_D3T1 <- readRDS('path..../GSM4138875_scRNA_CD34_D3T1.rds')
 
 #Create the Seurat Object for each sample-----------------------------------------------------------------------------------
 BMMC_D1T1_so <- CreateSeuratObject(counts = BMMC_D1T1, project = "BMMC_D1T1", min.cells = 3, min.features = 200)
